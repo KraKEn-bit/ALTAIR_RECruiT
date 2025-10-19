@@ -1,18 +1,18 @@
-# 🐦 Bird Species Detection using YOLOv11
+# Bird Species Detection using YOLOv11
 
 This project focuses on building a **deep learning–based bird species detection system** using the **YOLOv11 object detection model**.  
 The goal is to train a model capable of accurately identifying different bird species — **Sparrow, Owl, and Eagle** — from images.
 
 ---
 
-## 📘 Project Overview
+## Project Overview
 
 The system was trained on a **custom annotated dataset** prepared in **Roboflow** and trained in **Google Colab** using **GPU acceleration** for faster performance.  
 It leverages **Ultralytics YOLOv11 (nano)** for efficient and accurate object detection.
 
 ---
 
-## ⚙️ Model Details
+## Model Details
 
 | Attribute | Description |
 |------------|--------------|
@@ -36,23 +36,23 @@ It leverages **Ultralytics YOLOv11 (nano)** for efficient and accurate object de
 
 ---
 
-## 🧩 Project Workflow
+## Project Workflow
 
-### 1️⃣ Dataset Preparation  
+### 1️. Dataset Preparation  
 - Collected images of various bird species (**Sparrow**, **Owl**, **Eagle**).  
 - Annotated images using **Roboflow’s bounding box annotation tool** for object detection.  
 - Exported the dataset in **YOLOv11 PyTorch format**.
 
-### 2️⃣ Model Training  
+### 2️. Model Training  
 - Loaded the **YOLOv11 model** using **Ultralytics** in **Google Colab**.  
 - Imported the Roboflow dataset via API.  
 - Trained the model for **50 epochs** using GPU for faster convergence.
 
-### 3️⃣ Model Evaluation  
+### 3️. Model Evaluation  
 - Evaluated the model using the **test split** of the dataset.  
 - Computed key performance metrics: **mAP@50**, **Precision**, and **Recall**.
 
-### 4️⃣ Prediction & Visualization  
+### 4️. Prediction & Visualization  
 - Tested the model on **unseen bird images**.  
 - Visualized predictions with **bounding boxes and species labels**.  
 - Initially, some annotations didn’t display correctly, so the dataset was **restructured and retrained** for improved results.  
@@ -60,7 +60,7 @@ It leverages **Ultralytics YOLOv11 (nano)** for efficient and accurate object de
 
 ---
 
-## 🧠 Technologies Used
+##  Technologies Used
 
 - **Python**  
 - **YOLOv11 (Ultralytics)**  
