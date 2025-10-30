@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/vboxuser/ros2_ws_rec/install/image_geometry/include/**",
+        "/home/vboxuser/ros2_ws_rec/install/cv_bridge/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/vboxuser/ros2_ws_rec/src/my_robot_description/include/**",
+        "/home/vboxuser/ros2_ws_rec/src/vision_opencv/cv_bridge/include/**",
+        "/home/vboxuser/ros2_ws_rec/src/vision_opencv/image_geometry/include/**",
+        "include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
